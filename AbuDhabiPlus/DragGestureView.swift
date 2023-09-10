@@ -83,33 +83,33 @@ struct ExtractedView: View {
         .cornerRadius(30)
     }
 }
-
-struct DragGestureView: View {
-    
-    @State var offset: CGSize = .zero
-    
-    var body: some View {
-        RoundedRectangle(cornerRadius: 20)
-            .frame(width: 100, height: 100)
-            .foregroundColor(Color.black)
-            .shadow(color: Color.black.opacity(0.7), radius: 10)
-            .offset(offset)
-            .gesture(
-                DragGesture()
-                    .onChanged({ value in
-                        withAnimation(.spring()){
-                            offset = value.translation
-                        }
-                    })
-                    .onEnded({ value in
-                        withAnimation {
-                            offset = .zero
-                        }
-                        
-                    })
-            )
-    }
-}
+//
+//struct DragGestureView: View {
+//
+//    @State var offset: CGSize = .zero
+//
+//    var body: some View {
+//        RoundedRectangle(cornerRadius: 20)
+//            .frame(width: 100, height: 100)
+//            .foregroundColor(Color.black)
+//            .shadow(color: Color.black.opacity(0.7), radius: 10)
+//            .offset(offset)
+//            .gesture(
+//                DragGesture()
+//                    .onChanged({ value in
+//                        withAnimation(.spring()){
+//                            offset = value.translation
+//                        }
+//                    })
+//                    .onEnded({ value in
+//                        withAnimation {
+//                            offset = .zero
+//                        }
+//
+//                    })
+//            )
+//    }
+//}
 
 struct DragGestureView_Previews: PreviewProvider {
     static var previews: some View {

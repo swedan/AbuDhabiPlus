@@ -11,7 +11,7 @@
 
 import SwiftUI
 
-struct MyAnimation: View {
+struct AnimationView: View {
     
     @State var isAnimated: Bool = false
     
@@ -37,8 +37,8 @@ struct MyAnimation: View {
     }
 }
 
-struct MyAnimation_Previews: PreviewProvider {
+struct AnimationView_Previews: PreviewProvider {
     static var previews: some View {
-        MyAnimation()
+        AnimationView()
     }
 }

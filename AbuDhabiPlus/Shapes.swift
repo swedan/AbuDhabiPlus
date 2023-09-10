@@ -73,7 +73,7 @@ struct Shapes: View {
                 )
         }
         .padding()
-        .background(Color.black)
+//        .background(Color.black)
     }
 }
 

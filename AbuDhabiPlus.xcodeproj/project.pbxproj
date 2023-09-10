@@ -16,10 +16,11 @@
 		B70906BF2A716B4E003FFCAD /* NavigationViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70906BE2A716B4E003FFCAD /* NavigationViewDemo.swift */; };
 		B70906C12A716D67003FFCAD /* ItemViewDetials.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70906C02A716D67003FFCAD /* ItemViewDetials.swift */; };
 		B70906C42A71723F003FFCAD /* TabViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70906C32A71723F003FFCAD /* TabViewDemo.swift */; };
+		B75FBAC72AADF4AB00783AEA /* MyColorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75FBAC62AADF4AB00783AEA /* MyColorButton.swift */; };
 		B78C290A2A7A42A800D39726 /* View3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C29092A7A42A800D39726 /* View3.swift */; };
 		B78C29AF2A7C371E00D39726 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C29AE2A7C371E00D39726 /* Shapes.swift */; };
 		B78C29B12A7C37A700D39726 /* Overlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C29B02A7C37A700D39726 /* Overlays.swift */; };
-		B78C29B32A7C388500D39726 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C29B22A7C388500D39726 /* Animation.swift */; };
+		B78C29B32A7C388500D39726 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C29B22A7C388500D39726 /* AnimationView.swift */; };
 		B78C29B52A7C391500D39726 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C29B42A7C391500D39726 /* Transition.swift */; };
 		B78C29B72A7C398F00D39726 /* AlertAndActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C29B62A7C398F00D39726 /* AlertAndActionSheet.swift */; };
 		B78C29B92A7C39DC00D39726 /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C29B82A7C39DC00D39726 /* ContextMenu.swift */; };
@@ -29,7 +30,7 @@
 		B78C29C12A7C3C9100D39726 /* GeometryReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78C29C02A7C3C9100D39726 /* GeometryReaderView.swift */; };
 		B7ECC4052A84EC1A00D89410 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ECC4042A84EC1A00D89410 /* SplashScreen.swift */; };
 		B7ECC4092A85344F00D89410 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ECC4082A85344F00D89410 /* LandingPage.swift */; };
-		B7ECC40C2A853C4300D89410 /* SpashScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ECC40B2A853C4200D89410 /* SpashScreen2.swift */; };
+		B7ECC40C2A853C4300D89410 /* SplashScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ECC40B2A853C4200D89410 /* SplashScreen2.swift */; };
 		B7ECC40E2A853EDA00D89410 /* AnimationImage.gif in Resources */ = {isa = PBXBuildFile; fileRef = B7ECC40D2A853EDA00D89410 /* AnimationImage.gif */; };
 		B7ECC4102A853FB500D89410 /* GIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ECC40F2A853FB500D89410 /* GIFView.swift */; };
 /* End PBXBuildFile section */
@@ -45,10 +46,11 @@
 		B70906BE2A716B4E003FFCAD /* NavigationViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewDemo.swift; sourceTree = "<group>"; };
 		B70906C02A716D67003FFCAD /* ItemViewDetials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewDetials.swift; sourceTree = "<group>"; };
 		B70906C32A71723F003FFCAD /* TabViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewDemo.swift; sourceTree = "<group>"; };
+		B75FBAC62AADF4AB00783AEA /* MyColorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyColorButton.swift; sourceTree = "<group>"; };
 		B78C29092A7A42A800D39726 /* View3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View3.swift; sourceTree = "<group>"; };
 		B78C29AE2A7C371E00D39726 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 		B78C29B02A7C37A700D39726 /* Overlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Overlays.swift; sourceTree = "<group>"; };
-		B78C29B22A7C388500D39726 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		B78C29B22A7C388500D39726 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		B78C29B42A7C391500D39726 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
 		B78C29B62A7C398F00D39726 /* AlertAndActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAndActionSheet.swift; sourceTree = "<group>"; };
 		B78C29B82A7C39DC00D39726 /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
@@ -58,7 +60,7 @@
 		B78C29C02A7C3C9100D39726 /* GeometryReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderView.swift; sourceTree = "<group>"; };
 		B7ECC4042A84EC1A00D89410 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		B7ECC4082A85344F00D89410 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
-		B7ECC40B2A853C4200D89410 /* SpashScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpashScreen2.swift; sourceTree = "<group>"; };
+		B7ECC40B2A853C4200D89410 /* SplashScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen2.swift; sourceTree = "<group>"; };
 		B7ECC40D2A853EDA00D89410 /* AnimationImage.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = AnimationImage.gif; sourceTree = "<group>"; };
 		B7ECC40F2A853FB500D89410 /* GIFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				B709068B2A6E909D003FFCAD /* AbuDhabiPlusApp.swift */,
+				B709068D2A6E909D003FFCAD /* ContentView.swift */,
 				B709068F2A6E90A0003FFCAD /* Assets.xcassets */,
 				B70906912A6E90A0003FFCAD /* Preview Content */,
 				B70906C22A71722E003FFCAD /* TabView */,
@@ -102,9 +105,8 @@
 				B70906992A6E9117003FFCAD /* Binding */,
 				B7ECC40A2A8538C000D89410 /* SplashScreens */,
 				B78C29AE2A7C371E00D39726 /* Shapes.swift */,
-				B709068D2A6E909D003FFCAD /* ContentView.swift */,
 				B78C29B02A7C37A700D39726 /* Overlays.swift */,
-				B78C29B22A7C388500D39726 /* Animation.swift */,
+				B78C29B22A7C388500D39726 /* AnimationView.swift */,
 				B78C29B42A7C391500D39726 /* Transition.swift */,
 				B78C29B62A7C398F00D39726 /* AlertAndActionSheet.swift */,
 				B78C29B82A7C39DC00D39726 /* ContextMenu.swift */,
@@ -112,6 +114,7 @@
 				B78C29BC2A7C3C0A00D39726 /* DragGestureView.swift */,
 				B78C29BE2A7C3C4A00D39726 /* ScrollViewReaderView.swift */,
 				B78C29C02A7C3C9100D39726 /* GeometryReaderView.swift */,
+				B75FBAC62AADF4AB00783AEA /* MyColorButton.swift */,
 			);
 			path = AbuDhabiPlus;
 			sourceTree = "<group>";
@@ -163,7 +166,7 @@
 			children = (
 				B7ECC40D2A853EDA00D89410 /* AnimationImage.gif */,
 				B7ECC4042A84EC1A00D89410 /* SplashScreen.swift */,
-				B7ECC40B2A853C4200D89410 /* SpashScreen2.swift */,
+				B7ECC40B2A853C4200D89410 /* SplashScreen2.swift */,
 				B7ECC4082A85344F00D89410 /* LandingPage.swift */,
 				B7ECC40F2A853FB500D89410 /* GIFView.swift */,
 			);
@@ -241,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B78C29B32A7C388500D39726 /* Animation.swift in Sources */,
+				B78C29B32A7C388500D39726 /* AnimationView.swift in Sources */,
 				B78C29BB2A7C3AEC00D39726 /* Badge.swift in Sources */,
 				B78C29B12A7C37A700D39726 /* Overlays.swift in Sources */,
 				B7ECC4102A853FB500D89410 /* GIFView.swift in Sources */,
@@ -255,11 +258,12 @@
 				B7ECC4052A84EC1A00D89410 /* SplashScreen.swift in Sources */,
 				B70906C12A716D67003FFCAD /* ItemViewDetials.swift in Sources */,
 				B78C29B52A7C391500D39726 /* Transition.swift in Sources */,
-				B7ECC40C2A853C4300D89410 /* SpashScreen2.swift in Sources */,
+				B7ECC40C2A853C4300D89410 /* SplashScreen2.swift in Sources */,
 				B70906BF2A716B4E003FFCAD /* NavigationViewDemo.swift in Sources */,
 				B78C290A2A7A42A800D39726 /* View3.swift in Sources */,
 				B709069B2A6E9139003FFCAD /* BindingDemo.swift in Sources */,
 				B78C29BF2A7C3C4A00D39726 /* ScrollViewReaderView.swift in Sources */,
+				B75FBAC72AADF4AB00783AEA /* MyColorButton.swift in Sources */,
 				B709069E2A6EA3F6003FFCAD /* ViewModelDemo.swift in Sources */,
 				B70906C42A71723F003FFCAD /* TabViewDemo.swift in Sources */,
 				B78C29C12A7C3C9100D39726 /* GeometryReaderView.swift in Sources */,
